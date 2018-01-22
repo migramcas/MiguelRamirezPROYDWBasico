@@ -1,0 +1,177 @@
+body{
+	background-color: #ECFBF4;
+}
+.introduccion{
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.logo{
+
+}
+
+.encabezado{
+	margin-top: -34px;
+	margin-left: -8px;
+	margin-right: -8px;	
+	margin-bottom: 14px;
+}
+
+div>h1{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+	background-color: #286EC6;
+	color: white;
+}
+
+h1+p{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 15px;
+	background-color: #286EC6;
+	color:#DAD2D2;
+
+}
+
+#presentacion{
+	margin-top: -35px;
+
+}
+
+li{
+	list-style: none;
+	display: inline;
+}
+
+
+.barraNavegacion{
+	text-align: center;
+	background: black;
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-top: -16px;
+}
+
+img+span{
+	color:white;
+	font-family: 'Indie Flower', cursive;
+}
+
+#tituloPagina{
+	font-family: 'Courgette', cursive;
+	text-align: center;
+}
+
+.barraNavegacion a{
+	margin:0.7%;
+	background-color:  #5089D0;
+	color:white;
+	padding:1.4%;
+	display:inline-block;
+	text-align: center;
+	width: 120px;
+	border-bottom-width: 3px;
+	border-top-width: : 0px;
+	border-right-width:  0px;
+	border-left-width: 0px;
+	border-style:solid;
+	border-color: black;
+	height: 15px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.barraNavegacion li:hover a{
+	background: #EB4549;
+}
+
+li.actual a{
+	background: red;
+}
+
+.introduccion{
+	font-family: 'EB Garamond', serif;
+}
+
+#verMas{
+	text-align: center;
+	color: #55A42E;
+}
+
+
+.footer{
+	background: black;
+	color: white;
+	padding:1.2%;
+	text-align:center;
+}
+
+.footer li{
+	display: inline;
+	margin:6%;
+	text-align:center;
+}
+
+
+.footer a{
+	background-color: #5089D0;
+	text-decoration: none;
+	padding: 1%;
+	color:black;
+	font-family: 'Indie Flower', cursive;
+}
+
+.tituloAntivirus{
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	font-size: 27px;
+	font-weight: 150px;
+}
+
+.subtitulosAntivirus{
+	font-family: 'Lilita One', cursive;
+	font-size: 21px;
+	padding-left: 1.5%;
+}
+
+.parrafosAntivirus{
+	text-align: justify;
+	padding-right: 3%;
+	padding-left: 3%;
+	font-family: 'Delius', cursive;
+}
+#fotosAntivirus{
+	text-align: center;
+	width: 90%;
+	height: auto;
+}
+
+
+
+/* Para celulares: */
+@media only screen and (max-width: 768px) {
+    .col-3 {width: 100%;      padding: 15px;
+}
+    .col-6 {width: 100%;      padding: 15px;
+}
+}
+
+/* Para escritorio: */
+@media only screen and (min-width: 768px) {
+    .col-3 {width: 38%; float: left; padding: 5px;}
+ 	.col-6{width:60%; float:left; padding:5px;}
+
+.adaptador{
+	height: auto;
+	width: 50%;
+}
+
+.centrado{
+	text-align: center;
+}
+
+#fotosAntivirusAvast{
+	text-align: center;
+	width: 50%;
+	height: auto;
+}
